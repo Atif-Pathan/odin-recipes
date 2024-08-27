@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(248, 231, 204);
+    font-family: sans-serif;
+}
+
+.page {
+    max-width: 800px;
+    font-size: x-large;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+    padding: 0px;
+}
+
+.main-heading {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 7em;
+    font-weight: bold;
+    font-style: oblique;
+    margin-bottom: 65px;
+}
+
+.sub-headings {
+    font-size: 2em;
+    font-style: italic;
+    /* padding: 10px; */
+    margin: 25px auto;
+}
